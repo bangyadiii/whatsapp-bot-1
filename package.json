@@ -1,0 +1,22 @@
+{
+    "dependencies": {
+        "axios": "^0.27.2",
+        "qrcode-terminal": "^0.12.0",
+        "whatsapp-web.js": "^1.16.6"
+    },
+    "name": "whatsapp-bot-1",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon --watch src src/index.js",
+        "start": "node src/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+        "nodemon": "^2.0.16"
+    }
+}
